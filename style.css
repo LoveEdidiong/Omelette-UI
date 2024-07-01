@@ -1,0 +1,130 @@
+/* margin 0 */
+/* padding 0 */
+
+body{
+    background-color: lightsalmon;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.container{
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    padding: 30px;
+    border-radius: 20px;
+}
+.omelettepicture{
+    background-image: url(/assets/omelette.jpeg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    width: 100%;
+
+}
+li::marker{
+    color: brown;
+}
+
+.her{
+    padding-left: 20px;     
+}
+
+
+.pr{
+    background-color: antiquewhite;
+    padding: 2px;
+    
+}
+#pan{
+    padding-left: 175px; color: brown;
+}
+
+#pert{
+    padding-left: 190px; color: brown;
+}
+#ops{
+    padding-left: 180px; color: brown;
+}
+#ups{
+    padding-left: 205px; color: brown;
+}
+li{
+    padding: 5px 0px 0px 10px;
+}
+
+h3{
+    margin: 20px;
+    color: brown;
+}
+
+h2{
+    color: brown;
+}
+
+.trap{
+    padding: 0 0 0 30px;
+}
+
+@media only screen and (max-width:900px){
+    .container{
+        background-color: white;
+        
+    }
+    .omelettepicture{
+        height: 300px;
+        
+
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width:600px){
+    .container{
+        background-color: white;
+        padding: 0%;
+    
+        border-radius: 0%;
+        min-width: 100%;
+        
+        
+    
+    }
+    .omelettepicture{
+        border-radius: 0%;
+        height: 150px;
+        display: block;
+    }
+    body{
+        padding: 0%;
+        margin: 0%;
+        min-width: min-content;
+        
+    }
+    #inner{
+        padding: 0 30px 30px 30px;
+        
+        
+    }
+    #head{
+        
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+
+    #pan{
+        padding-left: 60px; color: brown;
+    }
+    
+    #pert{
+        padding-left: 80px; color: brown;
+    }
+    #ops{
+        padding-left: 70px; color: brown;
+    }
+    #ups{
+        padding-left: 95px; color: brown;
+    }
+
+}
